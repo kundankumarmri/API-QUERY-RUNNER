@@ -1,9 +1,9 @@
 import requests
 import time
 
-API_URL = "https://API_BASEURL/icoralmssql/1/customDataQuery/customQuery"
+API_URL = "https://example.com/icoralmssql/1/customDataQuery/customQuery"
 
-TOKEN = "YOUR_TOKEN_HERE"
+TOKEN = "YOUR_API_TOKEN"
 
 HEADERS = {
     "Authorization": f"Bearer {TOKEN}",
